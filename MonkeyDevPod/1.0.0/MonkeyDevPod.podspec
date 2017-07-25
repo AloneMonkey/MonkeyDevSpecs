@@ -14,4 +14,5 @@ Pod::Spec.new do |spec|
   spec.platform         = :ios, "8.0"
   spec.source           = { :http => "https://github.com/AloneMonkey/MonkeyDevPod/raw/master/LatestBuild/MonkeyDevPod.zip"}
   spec.vendored_frameworks = "MonkeyDevPod.framework"
+  spec.pod_target_xcconfig = { "ONLY_ACTIVE_ARCH" => "No" }
 end
