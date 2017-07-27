@@ -15,4 +15,5 @@ Pod::Spec.new do |spec|
   spec.source           = { :git => "https://github.com/AloneMonkey/MonkeyDevPod.git", :tag => spec.version.to_s }
   spec.source_files     = "MonkeyDevPod/MonkeyDevPod/Classes/*.{h,m}"
   spec.requires_arc     = true
+  spec.pod_target_xcconfig = { "ONLY_ACTIVE_ARCH" => "No" }
 end
