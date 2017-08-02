@@ -15,8 +15,4 @@ Pod::Spec.new do |spec|
   spec.source           = { :http => "https://github.com/AloneMonkey/MonkeyDevPod/raw/master/CydiaSubstrate/CydiaSubstrate.zip"}
   spec.vendored_frameworks = "CydiaSubstrate.framework"
   spec.pod_target_xcconfig = { "ONLY_ACTIVE_ARCH" => "No" }
-  valid_archs = ['armv6','armv7','arm64']
-  spec.xcconfig = {
-    'VALID_ARCHS' =>  valid_archs.join(' '),
-  }
 end
