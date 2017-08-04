@@ -1,3 +1,20 @@
+
+给[MonkeyDev](https://github.com/AloneMonkey/MonkeyDev)使用的私有Pod仓库。
+
+Podfile文件内容:
+
+```
+source 'https://github.com/AloneMonkey/MonkeyDevSpecs.git'  #不可少
+	
+use_frameworks!						#不可少
+
+target 'MonkeyAppDylib' do			#target选动态库
+     pod 'WechatPod'     			#pod的名字
+end
+```
+
+如果出现找不到pod，`open ~/.cocoapods` 删除`repos`下面的`alonemonkey` repo 重新install。
+
 ### WeChatRevokeMsgPod
 
 作者:[Allen](https://github.com/ZWXAllen/)
