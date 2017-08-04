@@ -14,6 +14,8 @@ Pod::Spec.new do |spec|
   spec.platform         = :ios, "8.0"
   spec.source           = { :http => "https://github.com/AloneMonkey/MonkeyDevPod/raw/master/CydiaSubstrate/CydiaSubstrate.zip"}
   spec.vendored_libraries = 'libsubstrate.dylib'  
+  spec.source_files        = "**/*.{h,m}"  
+  spec.public_header_files = "include/CydiaSubstrate.h"  
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lsubstrate' }
   spec.pod_target_xcconfig = { "ONLY_ACTIVE_ARCH" => "No" }
 end
