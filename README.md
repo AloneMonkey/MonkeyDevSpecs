@@ -1,14 +1,14 @@
 ### WeChatRevokeMsgPod
 
-作者:
+作者:[Allen](https://github.com/ZWXAllen/)
 
-功能介绍:
+功能介绍：安装后，别人给你发的消息无法撤回
 
 ### WeChatSelectAll
 
-作者:
+作者:[Allen](https://github.com/ZWXAllen/)
 
-功能介绍:
+功能介绍:非群主可以@所有人，使用方法 #所有人 消息
 
 ### WechatFunnyAt
 
