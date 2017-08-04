@@ -13,6 +13,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url = "http://weibo.com/xiaoqing28"
   spec.platform         = :ios, "8.0"
   spec.source           = { :http => "https://github.com/AloneMonkey/MonkeyDevPod/raw/master/CydiaSubstrate/CydiaSubstrate.zip"}
-  spec.vendored_frameworks = "CydiaSubstrate.framework"
+  spec.vendored_libraries = 'libsubstrate.dylib'  
+  spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lsubstrate' }
   spec.pod_target_xcconfig = { "ONLY_ACTIVE_ARCH" => "No" }
 end
