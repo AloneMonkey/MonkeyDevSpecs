@@ -49,4 +49,4 @@ end
 
 作者: [AloneMonkey](http://weibo.com/xiaoqing28)
 
-功能介绍: 修改步数、修改定位、防撤回
+功能介绍: 修改步数、修改定位、防撤回、游戏作弊
