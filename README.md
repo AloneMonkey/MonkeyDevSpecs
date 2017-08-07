@@ -15,6 +15,12 @@ end
 
 如果出现找不到pod，`open ~/.cocoapods` 删除`repos`下面的`alonemonkey` repo 重新install。
 
+### MakeRedEnvelopEasy
+
+作者: [wordbeyond](http://www.swiftyper.com/about/), [iOSleep](http://weibo.com/iOSleep)
+
+功能介绍: 抢红包, 可设置延时, 黑名单等, 详情移驾[WeChatRedEnvelop](https://github.com/buginux/WeChatRedEnvelop)
+
 ### CydiaSubstrate
 
 发布者: [AloneMonkey](http://weibo.com/xiaoqing28)
