@@ -15,6 +15,13 @@ end
 
 如果出现找不到pod，`open ~/.cocoapods` 删除`repos`下面的`alonemonkey` repo 重新install。
 
+### WeChatPriPod
+
+作者: [wordbeyond](http://www.swiftyper.com/about/), [yulingtianxia](http://yulingtianxia.com/about/), [Lorwy](https://github.com/Lorwy)
+
+功能介绍: 屏蔽群或好友消息，关闭发现页面功能入口，修改微信步数，去除小红点，设置夜间模式等，详情移驾[yulingtianxia](https://github.com/yulingtianxia/FishChat)；
+		 抢红包, 可设置延时, 黑名单，阻止撤回消息等等, 详情移驾[WeChatRedEnvelop](https://github.com/buginux/WeChatRedEnvelop)，非群主At所有人
+
 ### MakeRedEnvelopEasy
 
 作者: [wordbeyond](http://www.swiftyper.com/about/), [iOSleep](http://weibo.com/iOSleep)
