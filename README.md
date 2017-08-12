@@ -5,7 +5,7 @@ Podfile文件内容:
 
 ```
 source 'https://github.com/AloneMonkey/MonkeyDevSpecs.git'  #不可少
-	
+
 use_frameworks!						#不可少
 
 target 'MonkeyAppDylib' do			#target选动态库
@@ -14,6 +14,15 @@ end
 ```
 
 如果出现找不到pod，`open ~/.cocoapods` 删除`repos`下面的`alonemonkey` repo 重新install。
+
+### IQIYIVideoPod
+
+功能介绍: 去除爱奇艺视频广告
+
+### TXVideoPod
+
+ 功能介绍: 去除腾讯视频广告
+
 
 ### WeChatPriPod
 
