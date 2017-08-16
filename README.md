@@ -15,6 +15,12 @@ end
 
 如果出现找不到pod，`open ~/.cocoapods` 删除`repos`下面的`alonemonkey` repo 重新install。
 
+### ZhuiShuShenQiFreeSource
+
+发布者: [iOSleep](http://weibo.com/iOSleep)
+
+功能介绍: 让追书神器所有的小说都可以查看免费源。
+
 ### IQIYIVideoPod
 
 功能介绍: 去除爱奇艺视频广告
