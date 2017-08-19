@@ -19,7 +19,7 @@ end
 
 发布者: [iOSleep](http://weibo.com/iOSleep)
 
-功能介绍: 让追书神器所有的小说都可以查看免费源。
+功能介绍: 让追书神器所有的小说都可以查看免费源，移除一些广告，防止误触！
 
 ### IQIYIVideoPod
 
