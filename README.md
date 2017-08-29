@@ -15,6 +15,12 @@ end
 
 如果出现找不到pod，`open ~/.cocoapods` 删除`repos`下面的`alonemonkey` repo 重新install。
 
+### WeChatMsgInterval
+
+发布者: [Pillar](https://github.com/Mainstayz)
+
+功能介绍: 显示对方回复你消息的时间间隔，详情：[WeChatMsgInterval](https://github.com/Mainstayz/WeChatMsgInterval)
+
 ### ZhuiShuShenQiFreeSource
 
 发布者: [iOSleep](http://weibo.com/iOSleep)
