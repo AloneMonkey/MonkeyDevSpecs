@@ -16,6 +16,13 @@ end
 如果出现找不到pod，`open ~/.cocoapods` 删除`repos`下面的`alonemonkey` repo 重新install。
 
 
+
+### DingtalkPod
+
+作者: [Dafa](http://www.cnblogs.com/DafaRan/)
+
+功能介绍：修改钉钉位置打卡，调用 DingtalkPod 中 -(void)setLocation:(CLLocationCoordinate2D)location即可
+
 ### WeChatWebEmoticon
 
 发布者: [Pillar](https://github.com/Mainstayz)
