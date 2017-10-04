@@ -94,6 +94,12 @@ end
 
 功能介绍: 微信消息输入框中，如果消息文本内容有@，则自动把第一个>之前（包含>）的内容删除掉。
 
+### YouKuPod
+
+作者: [AloneMonkey](http://weibo.com/xiaoqing28)
+
+功能介绍: 优酷视频去广告
+
 ### WechatPod
 
 作者: [AloneMonkey](http://weibo.com/xiaoqing28)
