@@ -38,6 +38,6 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'capstone' do |cap|
     cap.vendored_libraries = "$(PODS_ROOT)/AppleTrace/appletrace/appletrace/src/objc/hookZz/deps/capstone/libcapstone.arm64.a"
-    cap.libraries = 'capstone.arm64'
+    cap.libraries = 'libcapstone.arm64.a'
   end
 end
