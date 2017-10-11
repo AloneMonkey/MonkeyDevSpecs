@@ -22,7 +22,11 @@ Pod::Spec.new do |spec|
     ]
   spec.requires_arc     = true
   spec.pod_target_xcconfig = { "ONLY_ACTIVE_ARCH" => "No" }     
-  spec.libraries = "appletrace/appletrace/objc/hookZz/deps/capstone/libcapstone.arm64.a"
+  spec.libraries = "capstone.arm64.a"
+  spec.xcconfig  =  { 
+    'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/appletrace/appletrace/objc/hookZz/deps/capstone/"',
+    'VALID_ARCHS' => 'arm64'
+    }
 
   non_arc_files = [
     "appletrace/appletrace/src/objc/hook_objc_msgSend.m"
