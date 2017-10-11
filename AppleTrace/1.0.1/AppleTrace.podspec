@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = "AppleTrace"                         
-  spec.version          = "1.0.0"                                     
+  spec.version          = "1.0.1"                                     
   spec.summary          = "AppleTrace for MonkeyDev"
   spec.description      = <<-DESC                                     
                           - AppleTrace for MonkeyDev
