@@ -37,8 +37,6 @@ Pod::Spec.new do |spec|
     sna.source_files = non_arc_files
   end 
 
-  spec.subspec 'capstone' do |cap|
-    cap.vendored_libraries = "$(PODS_ROOT)/AppleTrace/appletrace/appletrace/src/objc/hookZz/deps/capstone/libcapstone.arm64.a"
-    cap.libraries = 'libcapstone.arm64.a'
-  end
+  spec.vendored_libraries = "$(PODS_ROOT)/AppleTrace/appletrace/appletrace/src/objc/hookZz/deps/capstone/libcapstone.arm64.a"
+  spec.libraries = 'libcapstone.arm64.a'
 end
