@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = { 
     'VALID_ARCHS' => 'arm64',
     "ONLY_ACTIVE_ARCH" => "Yes" ,
-    "OTHER_LDFLAGS" => "-L$(PODS_ROOT)/AppleTrace/appletrace/appletrace/src/objc/hookZz/deps/capstone/libcapstone.arm64.a"
+    "OTHER_LDFLAGS" => "-L'$(PODS_ROOT)/AppleTrace/appletrace/appletrace/src/objc/hookZz/deps/capstone/' -llibcapstone.arm64.a"
     }     
 
   non_arc_files = [
