@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
     }     
   #spec.library = 
 
-  s.subspec 'capstone' do |cap|
+  spec.subspec 'capstone' do |cap|
     openssl.vendored_libraries = "$(PODS_ROOT)/AppleTrace/appletrace/appletrace/src/objc/hookZz/deps/capstone/libcapstone.arm64.a"
     openssl.libraries = 'capstone'
   end
