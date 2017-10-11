@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
     'VALID_ARCHS' => 'arm64',
     "ONLY_ACTIVE_ARCH" => "Yes" 
     }     
-    
+
   non_arc_files = [
     "appletrace/appletrace/src/objc/hook_objc_msgSend.m"
     ]
@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   end 
 
   spec.subspec 'capstone' do |cap|
-    openssl.vendored_libraries = "$(PODS_ROOT)/AppleTrace/appletrace/appletrace/src/objc/hookZz/deps/capstone/libcapstone.arm64.a"
-    openssl.libraries = 'capstone'
+    cap.vendored_libraries = "$(PODS_ROOT)/AppleTrace/appletrace/appletrace/src/objc/hookZz/deps/capstone/libcapstone.arm64.a"
+    cap.libraries = 'capstone'
   end
 end
