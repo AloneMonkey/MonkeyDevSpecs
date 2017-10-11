@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.platform         = :ios, "8.0"
   spec.source           = { :git => "https://github.com/everettjf/AppleTrace.git", :tag => spec.version.to_s }  
   spec.source_files     = [
-    "appletrace/appletrace/src/**/*.{h,m,c}",
+    "appletrace/appletrace/src/**/*.{h,m,c,a}",
     "appletrace/appletrace/src/**/*.mm",
     ]
   spec.public_header_files = [
