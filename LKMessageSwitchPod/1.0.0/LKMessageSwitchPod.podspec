@@ -15,7 +15,6 @@ Pod::Spec.new do |spec|
   spec.source           = { :git => "https://github.com/sherlockZ/LKMessageSwitchPod.git", :tag => spec.version.to_s }  #代码的git地址以及tag
   spec.source_files     = "LKMessageSwitchPod/**/*.{h,m}"        #本地验证，表示当前目录以及子目录的所有h或m结尾的文件   如果发布到MonkeyPodSpecs需要填写git clone下来的对应的路径
   spec.public_header_files = "LKMessageSwitchPod/LKMessageSwitchPod.h"        #需要对外导出的头文件  此处为本地验证
-  spec.dependency 'CaptainHook'                                      #由于多个pod导致CaptainHook.h找不到，单独依赖CaptainHook
   spec.requires_arc     = true                                       #ARC
   spec.pod_target_xcconfig = { "ONLY_ACTIVE_ARCH" => "No" }          #这个必须有，不要修改
 end
