@@ -111,3 +111,9 @@ end
 作者: [AloneMonkey](http://weibo.com/xiaoqing28)
 
 功能介绍: 修改步数、修改定位、防撤回、游戏作弊
+
+### MGDropAD
+
+作者: [BackNotGod](https://github.com/BackNotGod)
+
+功能介绍: 芒果TV视频去广告
