@@ -29,6 +29,12 @@ end
 
 功能介绍: 在微信WebView上，对Gif，静态图一键保存生成表情，突破微信Gif表情保存大小的限制。 详情：[WeChatWebEmoticon](https://github.com/Mainstayz/WeChatWebEmoticon)
 
+### LKMessageSwitch
+
+发布者: [locker](https://github.com/sherlockZ)
+
+功能介绍: 在微信上浏览网页朋友圈或者在其他页面,弹层提示消息,可点击进入对应聊天页面,返回可回到原来的页面. 详情:[LKMessageSwitchPod](https://github.com/sherlockZ/LKMessageSwitchPod)
+
 
 ### WeChatMsgInterval
 
