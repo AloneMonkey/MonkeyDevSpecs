@@ -4,6 +4,7 @@
 Podfile文件内容:
 
 ```
+source 'https://github.com/CocoaPods/Specs.git'  #依赖官方的pod需要加，比如WeChatPod
 source 'https://github.com/AloneMonkey/MonkeyDevSpecs.git'  #不可少
 
 use_frameworks!						#不可少
@@ -15,6 +16,11 @@ end
 
 如果出现找不到pod，`open ~/.cocoapods` 删除`repos`下面的`alonemonkey` repo 重新install。
 
+### MDSettingCenter
+
+作者: [AloneMonkey](http://weibo.com/xiaoqing28)
+
+功能介绍：通用的插件界面配置组件，开发的pod只用写功能，界面通过该pod自动生成
 
 
 ### DingtalkPod
