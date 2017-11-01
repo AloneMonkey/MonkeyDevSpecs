@@ -1,6 +1,8 @@
 
 给[MonkeyDev](https://github.com/AloneMonkey/MonkeyDev)使用的私有Pod仓库。
 
+**注意: 自己开发Pod的时候，文件命名都带上前缀，防止多个pod出现同一个头文件的情况！**
+
 Podfile文件内容:
 
 ```
