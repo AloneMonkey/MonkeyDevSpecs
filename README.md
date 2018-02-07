@@ -125,3 +125,9 @@ end
 作者: [BackNotGod](https://github.com/BackNotGod)
 
 功能介绍: 芒果TV视频去广告
+
+### DingDingRevokeMessagePod
+
+作者: [WJustin](https://github.com/WJustin/DingDingRevokeMessagePod.git)
+
+功能介绍: 钉钉消息防撤回
