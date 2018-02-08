@@ -131,3 +131,9 @@ end
 作者: [WJustin](https://github.com/WJustin/DingDingRevokeMessagePod.git)
 
 功能介绍: 钉钉消息防撤回
+
+### DingDingPod
+
+作者: [WJustin](https://github.com/WJustin/DingDingPod)
+
+功能介绍: 钉钉消息防撤回、自动抢红包功能
