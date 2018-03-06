@@ -136,4 +136,4 @@ end
 
 作者: [WJustin](https://github.com/WJustin/DingDingPod)
 
-功能介绍: 钉钉消息防撤回、自动抢红包功能
+功能介绍: 钉钉消息防撤回、自动抢红包功能、修改运动步数
