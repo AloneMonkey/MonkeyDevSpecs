@@ -37,7 +37,7 @@ end
 
 功能介绍: 在微信WebView上，对Gif，静态图一键保存生成表情，突破微信Gif表情保存大小的限制。 详情：[WeChatWebEmoticon](https://github.com/Mainstayz/WeChatWebEmoticon)
 
-### LKMessageSwitch
+### LKMessageSwitchPod
 
 发布者: [locker](https://github.com/sherlockZ)
 
