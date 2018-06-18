@@ -137,3 +137,10 @@ end
 作者: [WJustin](https://github.com/WJustin/DingDingPod)
 
 功能介绍: 钉钉消息防撤回、自动抢红包功能、修改运动步数
+
+### LTCboxPod
+
+发布者: [Latte](https://github.com/1061961387)
+
+功能介绍: 去除央视影音APP的广告，看球无压力. 详情:[LTCboxPod](https://github.com/1061961387/LTCboxPod)
+
