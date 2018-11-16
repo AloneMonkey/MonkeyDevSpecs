@@ -150,3 +150,10 @@ end
 
 功能介绍: 百度网盘iPhone客户端，享有超级会员特权，可以极速下载，倍速播放，尊贵标识，无法在线解压. 详情:[LTBaiduNetDiskiPhone](https://github.com/1061961387/LTBaiduNetDiskiPhone)
 
+### MGTVAnyWatch
+
+发布者: [无情生哥](https://github.com/wuqingshengge)
+
+功能介绍: 打破芒果TV五分钟预览视频, 实现整片观看!
+
+
