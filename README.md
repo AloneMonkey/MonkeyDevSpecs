@@ -156,4 +156,10 @@ end
 
 功能介绍: 打破芒果TV五分钟预览视频, 实现整片观看!
 
+### AYTikTokPod
+
+发布者: [AYJk](https://github.com/AYJk)
+
+功能介绍: TikTok添加多地区选择/移除下载水印/移除日区版权下载限制！详情:[AYTikTokPod](https://github.com/AYJk/AYTikTokPod)
+
 
